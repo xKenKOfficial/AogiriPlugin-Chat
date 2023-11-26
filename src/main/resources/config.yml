@@ -1,0 +1,32 @@
+# Tutaj mozesz ustawic prefix pluginu:
+prefix: "&3&lxKenChat"
+
+# Tutaj mozesz ustawic wiadomosc o braku permisji:
+no_permissions: "&4Blad&8: &cNie masz dostepu do tej komendy!"
+
+# Tutaj mozesz ustawic wiadomosc poprawnego uzycia dla komendy /chat:
+correct_use:
+  chat: "&4Blad&8: &7Poprawne uzycie&8: &b/chat (on/off)"
+
+# Tutaj mozesz ustawic wiadomosc, jesli administrator oczyscil chat:
+message: "&8[&aInfo&8] &7Chat zostal oczyszczony przez&8: &b{ADMIN}&8!"
+
+# Tutaj mozna ustawic wiadomosc do administratora, jesli oczyscil chat:
+message_admin: "&8[&aInfo&8] &aPomyslnie oczysciles chat!"
+
+# Tutaj mozesz ustawic wiadomosci, jesli chat jest wylaczony/wlaczony/nie mozna pisac:
+chat:
+  message:
+    disable: "&8[&aInfo&8] &cChat aktualnie jest wylaczony!"
+    enable: "&8[&aInfo&8] &aChat zostal ponownie wlaczony!"
+    blocked: "&8[&aInfo&8] &cChat aktualnie jest wylaczony i nie mozna pisac!"
+
+# Tutaj mozna ustawic czas wysylania wiadomosci, aby nie bylo spamu:
+antyspam_timer: 3000
+
+# Tutaj mozna ustawic wiadomosc, jesli gracz wysyla za szybko wiadomosci:
+antyspam:
+  when_the_time_is_not_up: "&4Blad&8: &cZa szybko piszesz, zwolnij troche!"
+
+# Tutaj mozna wlaczyc i wylaczyc informacje o pluginie:
+plugin_info: true

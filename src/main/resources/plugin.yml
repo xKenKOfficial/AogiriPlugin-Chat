@@ -1,0 +1,14 @@
+name: AogiriPlugin-Chat
+version: '${project.version}'
+main: com.github.xKenKOfficial.Chat.Basic.Main
+api-version: '1.20'
+prefix: AogiriPlugin-Chat
+author: xKenKOfficial
+authors: [xKenKOfficial]
+description: Plugin do zarzadzania chatem na serwerze.
+website: https://discord.gg/2HDuZrEFTg
+
+commands:
+  chatclear:
+    aliases: [cc, clearchat]
+  chat:
